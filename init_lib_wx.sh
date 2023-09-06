@@ -14,7 +14,7 @@ source "${DIR}/init_compiler.sh"
 declare -g LIB_WX="wx"
 declare -g LIB_WX_NAME="wxWidgets"
 
-declare -g LIB_WX_VERSION_DEFAULT="3.2.1"
+declare -g LIB_WX_VERSION_DEFAULT="3.2.2.1"
 declare -g -a LIB_WX_VERSIONS=(
     "3.0.5"
     "3.1.6"
