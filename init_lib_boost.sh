@@ -16,10 +16,11 @@ source "${DIR}/init_compiler.sh"
 declare -g LIB_BOOST="boost"
 declare -g LIB_BOOST_NAME="Boost"
 
-declare -g LIB_BOOST_VERSION_DEFAULT="1.79.0"
+declare -g LIB_BOOST_VERSION_DEFAULT="1.82.0"
 declare -g -a LIB_BOOST_VERSIONS=(
     "1.76.0"
     "1.77.0"
+    "1.79.0"
     "${LIB_BOOST_VERSION_DEFAULT}"
 )
 
